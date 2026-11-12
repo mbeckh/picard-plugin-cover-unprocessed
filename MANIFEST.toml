@@ -1,0 +1,22 @@
+uuid = "a674fa51-bd12-4e67-a887-b1c736468659"
+name = "Unprocessed Covers"
+description = "Prefer already processed covers and save unprocessed versions."
+api = ["3.0"]
+authors = ["Michael Beckh"]
+maintainers = ["Michael Beckh"]
+license = "Apache-2.0"
+license_url = "https://www.apache.org/licenses/LICENSE-2.0"
+long_description = """Prefer already processed covers and save unprocessed versions.
+
+The plugin adds a cover art provider which can search for both already processed images (i.e. thumbnails)
+and unprocessed files while preferring the former.
+
+The plugin also adds a column to the artwork tab in the info dialog to show the unprocessed image (if found).
+
+The unprocessed image is saved alongside the music files using a configurable name and renamed automatically.
+"""
+categories = ["coverart"]
+homepage = "https://github.com/mbeckh/picard-plugin-cover-unprocessed"
+report_bugs_to = "https://github.com/mbeckh/picard-plugin-cover-unprocessed/issues"
+min_python_version = "3.14"
+source_locale = "en"
