@@ -652,7 +652,7 @@ def enable(api: PluginApi) -> None:
     )
     api.plugin_config.register_option(
         'cover_unprocessed_regex',
-        r'^(?!folder).*?(?:[_-](.*))?\.jpg$',
+        r'^(?!folder)(?:.*[_-])?(.*)?\.jpg$',
         api.tr('options.cover_unprocessed_regex', "Regex for finding unprocessed cover image"),
         in_profile=True,
     )
